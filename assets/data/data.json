@@ -1,0 +1,23 @@
+{
+	"producers": {
+		"Rebeca": {
+			"logo": "assets/images/dog_ac3.png",
+			"name": "Rebeca",
+			"description": "Rebeca foi resgatada no rio arrudas com bastante carrapato e pulga.",
+			"distance": "10",
+			"packages": [
+				{"title": "Visita ao veterinário", "description": "Consulta inicial para avaliar estado de saúde do animal.", "price": "120,00", "items":  ["Consulta"]},
+				{"title": "Banho e tosa", "description": "Banho e tosa para a Rebeca ficar cheirosa.", "price": "35,00", "items":  ["Banho", "Tosa"]}
+				]
+		}
+	},
+	"favorites": ["Rebeca"],
+	"highlights": [
+		{"name": "Theo", "description": "Adotado - acompanhe", "image": "assets/images/dog_ac1.png"},
+		{"name": "Jorel", "description": "Adotado - acompanhe", "image": "assets/images/dog_ac2.png"}
+	],
+	"spotlights": [
+		{"description": "Princesa", "image": "assets/images/cat_dstq1.png"},
+		{"description": "Bartô", "image": "assets/images/dog_dstq1.png"}
+	]
+}

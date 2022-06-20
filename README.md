@@ -1,6 +1,6 @@
 # artemis_mobile
 
-Projeto mobile referente ao Artemis - Gestão para ONGs
+A new Flutter project.
 
 ## Getting Started
 
