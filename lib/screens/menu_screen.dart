@@ -7,6 +7,7 @@ import 'package:proj/screens/favorites_screen.dart';
 import 'package:proj/screens/animals_screen.dart';
 import 'package:proj/screens/home_screen.dart';
 import 'package:proj/screens/profile_screen.dart';
+import 'animals_cad_screen.dart';
 import 'login_screen.dart';
 import 'onginfo_screen.dart';
 
@@ -48,6 +49,15 @@ class MenuScreen extends StatelessWidget {
                     context,
                     MaterialPageRoute(builder: (context) => OnginfoScreen()),
                         (route) => false
+                ),
+              ),
+              Divider(),
+              OrgsMenuCard(
+                text: 'Cadastro de animais',
+                icon: Icons.pets,
+                action: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => AnimalsCadScreen()),
                 ),
               ),
               Divider(),
